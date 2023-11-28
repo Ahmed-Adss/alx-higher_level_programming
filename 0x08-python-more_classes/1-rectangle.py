@@ -3,7 +3,7 @@
 
 
 class Rectangle:
-    """Represent a rectangle."""
+    """Represents a rectangle."""
 
     def __init__(self, width=0, height=0):
         """Initializes a new Rectangle instance.
@@ -48,7 +48,7 @@ class Rectangle:
         """
         return self.__height
 
-    @width.setter
+    @height.setter
     def height(self, value):
         """Sets the height of this Rectangle instance.
         Args:
