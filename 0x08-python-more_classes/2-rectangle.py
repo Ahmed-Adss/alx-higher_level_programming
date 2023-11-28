@@ -71,7 +71,7 @@ class Rectangle:
         """
         return self.width * self.height
 
-   def perimeter(self):
+    def perimeter(self):
        """claculate the permimeter of the rectangle
        Returns:
          the perimeter of this rectangle
